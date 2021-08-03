@@ -9,6 +9,7 @@ body {
     background-color: #ebf2ff;
 }
 
+
 .button__primary {
     background-image: linear-gradient(
       to right,
@@ -105,6 +106,92 @@ body {
     padding: 15px;
 }
 
+/*Flexxxxxxxxxxx*/
+.restaurant__text {
+    font-size: 30px;
+    margin-top: 50px;
+    margin-bottom: 25px;
+    text-align: center;
+}
+
+.restaurant__images__container {
+    width: 100%;
+    
+}
+
+.restaurant__images__row__one, .restaurant__images__row__two {
+    width: 100%;
+    display: flex;
+    gap: 3px;
+}
+
+.restaurant__images__row__one{
+    align-items: baseline;
+    margin-bottom: 3px;
+}
+
+.restaurant__image__1, .restaurant__image__4 {
+    width: 100%;
+    height: 120px;
+    
+}
+
+.restaurant__image__2, .restaurant__image__3 {
+    width: 120%;
+    height: 150px;
+}
+
+
+
+.restaurant__1, .restaurant__2, .restaurant__3, .restaurant__4 {
+    width: 100%;
+    height: 100%;
+}
+
+/*get__updated__container*/
+
+.get__updated__container {
+    width: 100%;
+}
+
+.get__updated {
+    width: 100%;
+}
+
+.get__updated__text {
+    width: 100%;
+    font-size: 35px;
+    margin-top: 50px;
+    margin-bottom: 25px;
+    text-align: center;
+    color: rgb(50, 50, 156);
+    font-weight: bolder;
+
+}
+
+.get__updated__form {
+    width: 100%;
+    display: flex;
+}
+
+.get__updated__button {
+    background-image: linear-gradient(
+      to right,
+      #ff512f 0%,
+      #dd2476 51%,
+      #ff512f 100%
+    );
+    color: #fff;
+    border: none;
+    padding: 12px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.get__updated__input__box {
+    padding: 8px;
+    border-radius: 6px;
+}
 
 @media (min-width: 768px) {
     .navbar {
@@ -157,6 +244,14 @@ body {
     z-index: -3;
     transform: skewY(-5deg);
 
+    }
+    .restaurant__container {
+        display: flex;
+        align-items: center;
+    }
+    .restaurant__text {
+        width: 100%;
+        font-size: 40px;
     }
 
 }
